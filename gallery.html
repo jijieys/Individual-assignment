@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			text-decoration: none;
+			border: none;s
+			outline: none;
+			font-family: 'Poppins'sans-serif;
+		}
+		body{
+			width: 100%;
+			height: 100vh;
+			overflow-x: hidden;
+			background-color: black;
+			color: white;
+		}
+		header{
+			margin-top: 5px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 20px;
+			background-color: transparent;
+			filter: drop-shadow(10px);
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			z-index: 100%;
+			}
+		.logo{
+			font-size: 24px;
+			color: #ea1538;
+			font-weight: 800;
+			cursor: pointer;
+			transition: 0.5s ease;
+		}
+		.logo:hover{
+			transform: scale(1.1);
+		}
+		.active{
+			text-decoration: underline;
+		}
+		nav a{
+			font-size: 20px;
+			color: white;
+			margin-left: 2rem;
+			font-weight: 200;
+			transition: 0.5s ease;
+			border-bottom: 3px solid transparent;
+		}
+		nav a:hover,
+		nav a:active{
+			color: #ea1538;
+			border-bottom: 3px solid #ea1538;
+		}
+		h1{
+			background: #494343;
+			font-family: Cooper Black;
+			font-size: 54px;
+			text-align: center;
+			height: 70px;
+			color: yellow;
+		}
+		section{
+			margin-top: 90px;
+			margin-left: 100px;
+		}
+		h2{
+			text-align: center;
+			color: #fff;
+			font-size: 42px;
+			font-family: Cooper Black;
+			text-decoration: underline;
+		}
+		h2:hover{
+			transform: scale(1,1);
+			color: yellow;
+		}
+		img{
+			width: 360px;
+			height: 360px;
+			margin: 10px;
+		}
+		footer{
+			background-color: #ea1538;
+			color: whitesmoke;
+			text-align: center;
+			padding: 10px;
+			justify-content: center;
+			align-items: center;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		  <a href="#" class="logo">My Website</a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="WorkExperience.html" >WorkExperience</a>
+      <a href="family.html" >Family</a>
+      <a href="Education.html">Education</a>
+      <a href="gallery.html" class="active">Gallery</a>
+    </nav>
+  </header>
+
+
+
+	
+	<section id="a">
+	<h2>My Picture</h2>
+		<a href="image/mukaku.jpeg"><img src="image/mukaku.jpeg"></a>
+		<a href="image/mukaku1.jpeg"><img src="image/mukaku1.jpeg"></a>
+		<a href="image/mukaku2.jpeg"><img src="image/mukaku2.jpeg"></a>
+		<a href="image/mukaku3.jpeg"><img src="image/mukaku3.jpeg"></a>
+		<a href="image/mukaku4.jpeg"><img src="image/mukaku4.jpeg"></a>
+		<a href="image/mukaku5.jpeg"><img src="image/mukaku5.jpeg"></a>
+	</section>
+	<section id="b">
+		<h2>Friend's Picture</h2>
+		<a href="image/kwan1.jpeg"><img src="image/kwan1.jpeg"></a>
+		<a href="image/kwan2.jpeg"><img src="image/kwan2.jpeg"></a>
+		<a href="image/kwan3.jpeg"><img src="image/kwan3.jpeg"></a>
+		<a href="image/kwan5.jpeg"><img src="image/kwan5.jpeg"></a>
+		<a href="image/kwan4.jpeg"><img src="image/kwan4.jpeg"></a>
+		<a href="image/kwan6.jpeg"><img src="image/kwan6.jpeg"></a>
+	</section>
+	
+	<section id="c">
+		<h2>Family Picture</h2>
+		<a href="image/s1.jpeg"><img src="image/s1.jpeg"></a>
+		<a href="image/s2.jpeg"><img src="image/s2.jpeg"></a>
+		<a href="image/s4.jpeg"><img src="image/s4.jpeg"></a>
+		<a href="image/s5.jpeg"><img src="image/s5.jpeg"></a>
+		<a href="image/s9.jpeg"><img src="image/s9.jpeg"></a>
+		<a href="image/s7.jpeg"><img src="image/s7.jpeg"></a>
+	</section>
+	<footer>
+      <p>© 2024 Muhammad Hafizzie. Resume Website</p>
+    </footer>
+
+</body>
+</html>
